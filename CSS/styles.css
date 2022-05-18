@@ -26,7 +26,6 @@ body {
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
 
    color: var(--primary-text-color);
 
@@ -147,6 +146,7 @@ body {
    text-transform: uppercase;
 }
 .benefits-text {
+   font-weight: 400;
    font-size: 14px;
    line-height: 2;
 
@@ -173,54 +173,7 @@ body {
    color: var(--secondary-text-color);
 }
 
-/* Footer 3E
-.footer {
-   background-color: var(--secondary-background-one);
-}
-
-.footer-logo {
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
-
-   color: var(--primary-text-color);
-
-   text-decoration: none;
-}
-
-.second-part-logo {
-   color: var(--white-text);
-}
-
-.footer .footer-logo:hover,
-.footer .footer-logo:focus {
-   color: var(--accent-text-color);
-}
-
-.footer .footer-logo:focus-visible {
-   outline: 2px solid var(--accent-text-color);
-}
-
-.footer .link {
-   color: var(--white-text);
-}
-
-.adress {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 2;
-
-   color: var(--white-text);
-}
-
-.footer .link {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 2;
-   color: rgba(255, 255, 255, 0.6);
-}*/
+/* Footer */
 .footer {
    background-color: var(--secondary-background-one);
 }
@@ -239,7 +192,8 @@ body {
 
 /* Filter */
 .filter {
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 4px;
+   border: none;
 
    font-size: 16px;
    line-height: 1.63;
@@ -249,6 +203,8 @@ body {
 .filter:hover,
 .filter:focus {
    background-color: var(--accent-text-color);
+   outline: var(--accent-text-color);
+   color: var(--white-text);
 }
 
 /* Galery */
