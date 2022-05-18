@@ -90,10 +90,36 @@ body {
 }
 
 /* effective solutions */
-.solutions {
+.hero {
    background-color: var(--secondary-background-one);
 }
-.solution-title {
+.hero-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #ffffff;
 }
 .button {
+   cursor: pointer;
+
+   background-color: var(--accent-text-color);
+   border: 2px solid var(--accent-text-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: #ffffff;
+}
+
+.button:focus-visible {
+   outline: 2px solid var(--accent-text-color);
 }
