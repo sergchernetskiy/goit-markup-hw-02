@@ -6,36 +6,59 @@
          name="description"
          content="Эффективные решения для вашего бизнеса"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+         rel="stylesheet"
+      />
       <title>Web Studio</title>
+      <link rel="stylesheet" href="./CSS/styles.css" />
    </head>
    <body>
       <!-- Шапка страницы -->
       <header>
          <!-- Навигация на другие страницы -->
          <nav>
-            <a href="./index.html">Web Studio</a>
-            <ul>
-               <li><a href="/studio">Студия</a></li>
-               <li><a href="/portfolio">Портфолио</a></li>
-               <li><a href="/contact">Контакты</a></li>
+            <a href="./index.html" class="logo"
+               ><span class="first-part-logo">Web</span>Studio</a
+            >
+            <ul class="site-nav list">
+               <li>
+                  <a href="index.html" class="link current">Студия</a>
+               </li>
+               <li>
+                  <a href="./portfolio.html" class="link">Портфолио</a>
+               </li>
+               <li>
+                  <a href="./contacts" class="link">Контакты</a>
+               </li>
             </ul>
          </nav>
-         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380 96 111 1111</a></li>
+         <ul class="contacts list">
+            <li>
+               <a href="mailto:info@devstudio.com" class="link"
+                  >info@devstudio.com</a
+               >
+            </li>
+            <li>
+               <a href="tel:+380961111111" class="link">+380 96 111 1111</a>
+            </li>
          </ul>
       </header>
 
       <!-- Уникальный контент страницы -->
       <main>
-         <section>
-            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button type="button">Заказать услугу</button>
+         <section class="solutions">
+            <h1 class="solution-title">
+               Эффективные решения<br />для вашего бизнеса
+            </h1>
+            <button type="button" class="button">Заказать услугу</button>
          </section>
          <!-- Наши сильные стороны -->
          <section>
             <h2>Наши сильные стороны</h2>
-            <ul>
+            <ul class="list">
                <li>
                   <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                   <p>
@@ -69,7 +92,7 @@
          <!-- Чем мы занимаемся -->
          <section>
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list">
                <li><img src="./images/box1.jpg" alt="box1" width="370" /></li>
                <li><img src="./images/box2.jpg" alt="box2" width="370" /></li>
                <li><img src="./images/box3.jpg" alt="box3" width="370" /></li>
@@ -78,7 +101,7 @@
          <!-- Команда -->
          <section>
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list">
                <li>
                   <img
                      src="./images/demyanenko.jpg"
@@ -111,7 +134,7 @@
       <footer>
          <!-- Контакты компании-->
          <a href="./index.html">Web Studio</a>
-         <ul>
+         <ul class="list">
             <li><address>г. Киев, б-р Леси Украинки, 26</address></li>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+380 96 111 1111</a></li>
