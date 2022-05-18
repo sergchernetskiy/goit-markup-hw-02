@@ -16,7 +16,7 @@ body {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
-   letter-spacing: 0.02em;
+   letter-spacing: 0.03em;
 }
 
 /* Logo */
@@ -63,6 +63,7 @@ body {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
+   letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -87,6 +88,7 @@ body {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
+   letter-spacing: 0.02em;
 }
 
 /* effective solutions */
@@ -110,6 +112,7 @@ body {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
 
+   font-family: Roboto, sans-serif;
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -122,4 +125,26 @@ body {
 
 .button:focus-visible {
    outline: 2px solid var(--accent-text-color);
+}
+
+/* Our benefits */
+.benefits .benefits-hide-title {
+   font-size: 0;
+}
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+.benefits-title {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+.benefits-text {
+   color: var(--secondary-text-color);
+   font-size: 14px;
+   line-height: 2;
 }
