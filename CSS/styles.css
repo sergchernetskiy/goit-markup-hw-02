@@ -49,14 +49,17 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.footer .link:hover,
+.footer .link:focus {
    color: var(--title-text-color);
    color: var(--accent-text-color);
    /*outline: 1px solid var(--accent-text-color);*/
 }
 
 .site-nav .link:focus-visible,
-.contacts .link:focus-visible {
+.contacts .link:focus-visible,
+.footer .link:focus-visible {
    outline: 2px solid var(--accent-text-color);
 }
 
@@ -180,6 +183,22 @@ body {
 
 .second-part-logo {
    color: var(--white-text);
+}
+
+.adress {
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 2;
+
+   color: var(--white-text);
+}
+
+.footer .link {
+   color: rgba(255, 255, 255, 0.6);
+
+   font-size: 14px;
+   line-height: 2;
 }
 
 /* Portfolio */
