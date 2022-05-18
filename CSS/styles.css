@@ -118,7 +118,7 @@ body {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
 
-   font-family: Roboto, sans-serif;
+   font-family: inherit;
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -223,6 +223,7 @@ body {
    border-radius: 4px;
    border: none;
 
+   font-family: inherit;
    font-size: 16px;
    line-height: 1.63;
    text-align: center;
@@ -249,4 +250,10 @@ body {
    line-height: 1.88;
 
    color: var(--secondary-text-color);
+}
+
+.main-list > .main-link {
+}
+
+.main .main-link {
 }
